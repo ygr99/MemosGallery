@@ -5,7 +5,7 @@ console.log(
 );
 photos();
 function photos() {
-  fetch("https://memos.wangguanjingji.fun/api/v1/memo?creatorId=1&tag=MemosGallery")
+  fetch("http://111.229.103.146:5230/api/v1/memo?creatorId=1&tag=MemosGallery")
     .then((res) => res.json())
     .then((data) => {
       // 记得修改memos地址
